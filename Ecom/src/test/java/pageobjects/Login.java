@@ -21,7 +21,7 @@ public class Login {
 	public void Profile_click ()
 	{
 		
-		System.out.println("gooo0000d");
+		System.out.println("g000d");
 		String title = driver.getTitle();
 		System.out.println(title);
 		driver.findElement(Profile).click();
