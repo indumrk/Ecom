@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
 public class Login {
 
 	WebDriver driver;
@@ -31,8 +32,7 @@ public class Login {
 	
 	public void Send_username()
 	{
-		driver.findElement(Username).sendKeys("7892009925");
-		
+		driver.findElement(Username).sendKeys();
 		
 		
 		

@@ -28,7 +28,7 @@ public class TC1 {
 	public void launch() throws InterruptedException {
 		Login b = new Login(driver);
 		b.Profile_click();
-		Thread.sleep(5000);
+		Thread.sleep(6000);
 		b.Send_username();
 	
 	}
